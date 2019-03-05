@@ -1,0 +1,46 @@
+<script src='{{ "js/jquery-3.1.1.min.js" | absURL }}'></script>
+<script src='{{ "js/parallax.js" | absURL }}'></script>
+<script src='{{ "js/smooth-scroll.min.js" | absURL }}'></script>
+<script src='{{ "js/scripts.js" | absURL }}'></script>
+
+
+<script src="https://checkout.stripe.com/checkout.js"></script>
+
+{{ if isset .Page.Params "purchase" }}
+<script>
+    var handler = StripeCheckout.configure({
+        key: '{{ .Site.Params.StripeKey }}',
+        image: '{{ "img/tentacle_icon_128x128.png" | absURL }}',
+        locale: 'auto',
+        token: function(token) {
+            // You can access the token ID with `token.id`.
+            // Get the token ID to your server-side code for use.
+        }
+    });
+
+    document.getElementById('purchaseButton').addEventListener('click', function(e) {
+        // Open Checkout with further options:
+        handler.open({
+            name: '{{ .Site.Title }} Plugins',
+            description: 'Terraform Plugin for Thycotic',
+            amount: 2000
+        });
+        e.preventDefault();
+    });
+
+    // Close Checkout on page navigation:
+    window.addEventListener('popstate', function() {
+        handler.close();
+    });
+</script>
+{{ end }}
+
+<script type="text/javascript">
+    window._mfq = window._mfq || [];
+    (function() {
+        var mf = document.createElement("script");
+        mf.type = "text/javascript"; mf.async = true;
+        mf.src = "//cdn.mouseflow.com/projects/628c7e75-da84-4009-98dd-1e2f84188f81.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+    })();
+</script>

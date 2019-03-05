@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+copyright = "© 2019 Codebiner"
+title = "Codebiner"
+theme = "codebiner"
+googleAnalytics = "UA-126302192-1"
+enableGitInfo = true
+
+[params]
+  stripeKey = "pk_test_NeUBLQdqzo9mTUJmBNdpvJJc"
+  contactEmail = "jason@thesparktree.com"
+  contactHours = "9AM - 5PM PST"
+  contactPhone = "415-545-8253"
