@@ -1,0 +1,74 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+    working_directory: /tmp/codebiner-web
+    environment:
+      HUGO_BUILD_DIR: /tmp/codebiner-web/public
+      LANG: C.UTF-8
+      LANGUAGE: C.UTF-8
+      LC_ALL: C.UTF-8
+    steps:
+    - run: apk update && apk add git
+    - checkout
+    - run: git submodule sync && git submodule update --init
+    - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+    - run: |
+        htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
+        --empty-alt-ignore --disable-external --assume-extension
+
+
+    - store_artifacts:
+        path: /tmp/codebiner-web/public
+
+    - persist_to_workspace:
+        # Must be an absolute path, or relative path from working_directory. This is a directory on the container which is
+        # taken to be the root directory of the workspace.
+        root: /tmp/codebiner-web
+        # Must be relative path from root
+        paths:
+          - public
+
+  deploy:
+    docker:
+      - image: circleci/ruby:2.3-jessie
+    working_directory: /tmp/codebiner-web
+    environment:
+      LANG: C.UTF-8
+      LANGUAGE: C.UTF-8
+      LC_ALL: C.UTF-8
+
+    steps:
+    - attach_workspace:
+        # Must be absolute path or relative path from working_directory
+        at: /tmp/codebiner-web
+    - deploy:
+        name: "Deploy to GH-Pages"
+        command: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+
+          git config --global user.email circleci@circleci
+          git config --global user.name CircleCI
+          cd public
+          git init
+          git checkout -b gh-pages
+          git add -A
+          git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
+          git remote add origin git@github.com:AnalogJ/codebiner-web.git
+          git push --force origin gh-pages:gh-pages
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master
