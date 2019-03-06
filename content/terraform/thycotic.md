@@ -4,6 +4,7 @@ date: 2019-03-04T13:10:25-08:00
 draft: false
 
 purchase: true
+docs: true
 ---
 
 <section class="cover switchable text-center-xs">

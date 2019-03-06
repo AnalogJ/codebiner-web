@@ -1,5 +1,5 @@
 ---
-title: "terraform"
+title: "pulumi"
 date: 2019-03-04T13:10:25-08:00
 draft: false
 ---
@@ -8,7 +8,7 @@ draft: false
     <div class="container pos-vertical-center">
         <div class="row">
             <div class="col-md-8 col-lg-6">
-                <h1>Interested in a Terraform Plugin?</h1>
+                <h1>Interested in a Pulumi Plugin?</h1>
                 <p class="lead">
                     Our plugins are in beta right now.
                     Sign up below and we'll send over our latest version for your feedback.
