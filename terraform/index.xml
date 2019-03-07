@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>terraform on Codebiner</title>
+    <link>https://www.codebiner.com/terraform/</link>
+    <description>Recent content in terraform on Codebiner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Codebiner</copyright>
+    <lastBuildDate>Mon, 04 Mar 2019 13:10:25 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.codebiner.com/terraform/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>thycotic</title>
+      <link>https://www.codebiner.com/terraform/thycotic/</link>
+      <pubDate>Mon, 04 Mar 2019 13:10:25 -0800</pubDate>
+      
+      <guid>https://www.codebiner.com/terraform/thycotic/</guid>
+      <description>Secure &amp;amp; Reliable Deployments Combine Terraform with Thycotic via Tentacle Plugins for improved stability, security &amp;amp; performance.
+Buy Now  or learn more      Guard your credentials with Thycotic     Same Terraform Workflow Native terraform support without compromises. Your `terraform plan`, `terraform run`, `terraform destroy` workflow does not change. Protect your credentials even during deployments.
+  Enterprise Security  Thycotic Secret Server is an industry leader, providing enterprise-grade password security and privileged access management for organizations of all sizes.</description>
+    </item>
+    
+  </channel>
+</rss>

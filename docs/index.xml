@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Codebiner</title>
+    <link>https://www.codebiner.com/docs/</link>
+    <description>Recent content in Docs on Codebiner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Codebiner</copyright>
+    
+	<atom:link href="https://www.codebiner.com/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.codebiner.com/docs/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.codebiner.com/docs/readme/</guid>
+      <description>codebiner-docs Codebiner docs</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.codebiner.com/docs/eula/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.codebiner.com/docs/eula/</guid>
+      <description>End User License Agreement (EULA)  Grant of License and Restrictions. Subject to the terms hereof, payment of all fees, and any applicable user/use limitations, Company grants Licensee a nonsublicensable, nonexclusive, right to use the current version of the licensed product in object code form only. (&amp;ldquo;Product&amp;rdquo;) only in accordance with Company&amp;rsquo;s applicable user documentation and only for up to the number of developers (&amp;ldquo;Developers&amp;rdquo;) specified on the order form and/or download page, provided each Developer may use the Product on two (2) machines.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.codebiner.com/docs/terraform/conjur/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.codebiner.com/docs/terraform/conjur/</guid>
+      <description>Terraform Conjur Plugin A Terraform plugin to retrieve secrets from Cyberark Conjur.
+Features  Retrieve Secrets/Credentials from Cyberark Conjur and use them in Terraform projects Metadata can also be retrieved Works with Terraform v0.10.x+ Integrates with Cyberark Conjur Supports Windows, Linux, macOS Professional Support Simple Setup  Requirements  Terraform 0.10.x Cyberark Conjur  Getting Started  Download the latest release for your OS. (Mac, Windows &amp;amp; Linux available) Copy the binary to your Terraform user plugins directory (You may need to create this directory):  ~/.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.codebiner.com/docs/terraform/lastpass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.codebiner.com/docs/terraform/lastpass/</guid>
+      <description>Terraform Lastpass Plugin A Terraform plugin to retrieve secrets from Lastpass.
+Features  Retrieve Secrets/Credentials from Lastpass and use them in Terraform projects Metadata can also be retrieved Works with Terraform v0.10.x+ Integrates with Lastpass Supports Windows, Linux, macOS Professional Support Simple Setup  Requirements  Terraform 0.10.x Lastpass Account  Getting Started  Download the latest release for your OS. (Mac, Windows &amp;amp; Linux available) Copy the binary to your Terraform user plugins directory (You may need to create this directory):  ~/.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.codebiner.com/docs/terraform/manageengine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.codebiner.com/docs/terraform/manageengine/</guid>
+      <description>Terraform Manage Engine Plugin A Terraform plugin to retrieve secrets from Manage Engine Password Manager Pro.
+Features  Retrieve Secrets/Credentials from Manage Engine Password Manager Pro and use them in Terraform projects Metadata can also be retrieved Works with Terraform v0.10.x+ Integrates with Manage Engine Password Manager Pro Supports Windows, Linux, macOS Professional Support Simple Setup  Requirements  Terraform 0.10.x Manage Engine Password Manager Pro  Getting Started  Download the latest release for your OS.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.codebiner.com/docs/terraform/thycotic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.codebiner.com/docs/terraform/thycotic/</guid>
+      <description>Terraform Thycotic Plugin A Terraform plugin to retrieve secrets from Thycotic Secret Server.
+Features  Retrieve Secrets/Credentials from Thycotic Secret Server and use them in Terraform projects Metadata can also be retrieved Works with Terraform v0.10.x+ Integrates with Thycotic Secret Server on Prem &amp;amp; Cloud Supports Windows, Linux, macOS Professional Support Simple Setup  Requirements  Terraform 0.10.x Thycotic Secret Server Cloud or On Prem  Getting Started  Download the latest release for your OS.</description>
+    </item>
+    
+  </channel>
+</rss>

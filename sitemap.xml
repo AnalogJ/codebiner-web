@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.codebiner.com/kubernetes/</loc>
+    <lastmod>2019-03-05T17:37:29-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/pulumi/</loc>
+    <lastmod>2019-03-05T17:37:29-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/terraform/</loc>
+    <lastmod>2019-03-05T17:37:29-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/terraform/thycotic/</loc>
+    <lastmod>2019-03-05T17:37:29-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/</loc>
+    <lastmod>2019-03-05T17:37:29-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/docs/readme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/docs/eula/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/docs/terraform/conjur/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/docs/terraform/lastpass/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/docs/terraform/manageengine/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/docs/terraform/thycotic/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/docs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.codebiner.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
